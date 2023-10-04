@@ -1,0 +1,55 @@
+body{
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: 1900px;
+    background-position-x: center;
+    background-position-y: -70px;
+    background-color: rgba(55, 68, 255, 0.911);
+    padding-top: 50;
+}
+h1{
+    color:  rgba(32, 73, 255, 0.925);
+    position:relative;
+    left: 280;
+    font-size: 70;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 30;
+}
+
+input{
+    margin: 640 450;
+    border: solid;
+    border-radius: 10px;
+    height: 50;
+    width: 100;
+    font-size: 25;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-color: rgba(62, 98, 255, 0.925);
+    color: rgb(255, 255, 255);
+    background-color: rgba(62, 107, 255, 0.788);
+    position: relative;
+    bottom: 100;
+}
+input:hover{
+    color: rgba(62, 107, 255, 0.342);
+}
+
+div{
+    background-color: rgba(55, 68, 255, 0.911);
+    height: 50;
+    width: 5000;
+    margin-top: -59;
+    margin-left: -10;
+    position: sticky;
+}
+
+a{
+    color: rgba(240, 248, 255, 0.945);
+    margin: 20;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
